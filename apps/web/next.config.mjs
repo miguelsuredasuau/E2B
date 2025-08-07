@@ -48,6 +48,7 @@ const codeSnippetsDir = path.resolve('./src/code')
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx'],
   basePath: '',
+  output: 'standalone',
   assetPrefix:
     // our production next app is proxied by our dashboard next app.
     // to make assets load correctly after proxying, we need to specify the proxied domain here.
